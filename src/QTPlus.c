@@ -73,13 +73,18 @@ void qtp_update_bluetooth_status(bool mark_dirty) {
 
 /* Update the text layer for the clock */
 void qtp_update_time(bool mark_dirty) {
-		static char time_text[10];
-        clock_copy_time_string(time_text, sizeof(time_text));
-        text_layer_set_text(qtp_time_layer, time_text);
-
+		// This part was changed to display date instead of time
+		static char date_text[] = "Xxxxxxxxx 00";
+		static struct tm* now;
+		time_t temp;
+		temp = time(NULL);  
+		now = localtime(&temp);   
+     
+		strftime(date_text, sizeof(date_text), "%B %e", now);
+		text_layer_set_text(qtp_time_layer, date_text);
         if (mark_dirty) {
                 layer_mark_dirty(text_layer_get_layer(qtp_time_layer));
-        } 
+		} 
 }
 
 

@@ -1,5 +1,5 @@
 {
-    "versionLabel": "2.0.0",
+    "versionLabel": "2.5",
     "uuid": "7319fbb6-bda7-4ea8-9190-30c582f4378f",
     "appKeys": {},
     "longName": "BigTime Blackboard",
@@ -7,7 +7,7 @@
     "capabilities": [
         ""
     ],
-    "shortName": "BigTime Blackboard",
+    "shortName": "Blackboard",
     "companyName": "Roger Leblanc",
     "watchapp": {
         "watchface": true
@@ -68,56 +68,6 @@
                 "type": "png",
                 "name": "QTP_IMG_BT",
                 "file": "images/bluetooth.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_19",
-                "file": "images/num_19.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_18",
-                "file": "images/num_18.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_17",
-                "file": "images/num_17.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_16",
-                "file": "images/num_16.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_15",
-                "file": "images/num_15.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_14",
-                "file": "images/num_14.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_13",
-                "file": "images/num_13.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_12",
-                "file": "images/num_12.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_11",
-                "file": "images/num_11.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_10",
-                "file": "images/num_10.png"
             },
             {
                 "type": "png",
